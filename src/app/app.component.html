@@ -1,0 +1,17 @@
+<div id="header">
+  <nav>
+      <a class="btn" routerLink="greeting" routerLinkActive="active">Home</a>
+      <a class="btn" routerLink="skills" routerLinkActive="active">Skills</a>
+      <a class="btn" routerLink="message" routerLinkActive="active">Message</a>
+      <a class="btn" routerLink="movies" routerLinkActive="active">Movies</a>
+    </nav>
+  <h1>
+      {{ title }}'s Portfolio Page!
+  </h1>
+  <img alt="Angular Logo" src="../assets/images/margaret.jpg">
+  <h3>I was born in {{ city }} in 1936.</h3>
+  <h5>Tagline: {{ tagline }}</h5>
+  <p>{{ aboutMe }}</p>
+
+  </div>
+  <router-outlet></router-outlet>
